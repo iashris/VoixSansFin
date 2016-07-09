@@ -1,0 +1,139 @@
+html { 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+	text-align: center;
+	color:white;
+opacity: 0.65;
+filter: alpha(opacity=65);
+}
+.mainheading{
+	font-size: 5.5em;
+	font-family: 'Mrs Sheppards',sans-serif;
+text-align: center;
+margin-top: 10%;
+font-weight: 400;
+border:2px solid white;
+display: inline-block;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+.subtitle{
+	font-weight: 400;
+	font-family: 'Cutive Mono';
+	font-size: 1.1em;
+	margin-top: 0.6%;
+}
+.proceed{
+	display: inline-block;
+	background: white;
+	color: #8E6B65;
+	font-family: 'Cutive Mono';
+	font-size: 1.1em;
+	padding:0.5% 1%;
+	margin-top: 1%;
+	cursor: pointer;
+}
+table, th, td {
+   border: 2px solid white;
+   border-collapse: collapse;
+	font-weight: 900;
+	font-family: 'Cutive Mono';
+	font-size: 1.15em;
+
+}
+table{
+	-webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);	
+    overflow: hidden;
+}
+td{
+	height: 90px;
+	width: 90px;
+	overflow: hidden;
+		-webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+td#sym{
+	font-size: 1.9em;
+	font-weight: 400;
+}
+input{
+	outline:0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 2px white solid;
+
+	width: 80px;
+	text-align: center;
+	background: none;
+	color: white;
+	opacity: 0.7;
+	font-family: 'Cutive Mono';
+	font-size: 1.6em;
+}
+input#arg{
+	width: 180px;
+}
+.container{
+	margin-top: 8%;
+	display: inline-block;
+	color: white;
+	opacity: 0.8;
+	font-family: 'Cutive Mono';
+	font-size: 1.1em;
+}
+p#appeartxt{
+	font-size: 1.6em;
+}
+.displaydig{
+	font-size: 12em;
+		color: white;
+	opacity: 0.7;
+	font-family: 'Cutive Mono';
+	z-index: -1;
+}
+#fixdiv{
+	position: absolute;
+	visibility: hidden;
+	text-align: center;
+	z-index: 99;
+	color: white;
+	opacity: 0.7;
+	font-family: 'Cutive Mono';
+	font-size: 1.1em !important;
+	width: 400px;
+	
+}
+.spa{
+	float: left !important;
+	text-align: left !important;
+	margin-right: 10px;
+	background: white;
+	color: #8E6B65;
+	font-family: 'Cutive Mono';
+	font-size: 1.1em;
+	padding:0.5% 1%;
+	margin-top: 1%;
+	cursor: pointer;
+	overflow: hidden;
+}
+@media only screen and (max-width: 500px) {
+    .mainheading{
+
+    }
+}
