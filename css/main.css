@@ -22,7 +22,12 @@ display: inline-block;
 padding-left: 2%;
 padding-right: 2%;
 }
-
+.warning{
+	font-family:'Cutive Mono';
+	font-weight:400;
+	font-size:0.8em;
+	width:50%;
+}
 .subtitle{
 	font-weight: 400;
 	font-family: 'Cutive Mono';
